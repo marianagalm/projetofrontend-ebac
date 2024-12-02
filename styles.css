@@ -2,11 +2,22 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body header {
+    color: #5555;
 }
 
 .container {
-    width: 1366px;
+    width: 1766px;
     margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .creation-date {
@@ -15,4 +26,45 @@
 
 .articles {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+    margin-bottom: 16px;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+#Tecnologia {
+    background-color: #e1e1e1;
+}
+
+#Entretenimento {
+    background-color: #e3e3e3;
+}
+
+#Economia {
+    background-color: #e5e5e5;
+}
+
+#Esportes {
+    background-color: #e7e7e7;
 }
