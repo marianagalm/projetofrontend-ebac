@@ -21,7 +21,7 @@ header .container {
 }
 
 .creation-date {
-    color: #5555;
+    color: #2e2e2e55;
 }
 
 .articles {
@@ -38,6 +38,17 @@ header .container {
     width: 30%;
 }
 
+.articles article a {
+    padding: 8px;
+    color: #ffffff;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
 section {
     padding: 16px 0;
     margin-bottom: 16px;
@@ -45,7 +56,7 @@ section {
 
 section h2,
 .articles article {
-    margin-bottom: 16px;
+    margin-bottom: 32px;
 }
 
 .articles article h3 {
@@ -54,17 +65,33 @@ section h2,
 }
 
 #Tecnologia {
-    background-color: #e1e1e1;
-}
-
-#Entretenimento {
-    background-color: #e3e3e3;
-}
-
-#Economia {
     background-color: #e5e5e5;
 }
 
+#Tecnologia .articles article a {
+    background-color: #999;
+}
+
+#Entretenimento {
+    background-color: rgba(243, 205, 222, 0.933);
+}
+
+#Entretenimento .articles article a {
+    background-color: rgb(206, 159, 192);
+}
+
+#Economia {
+    background-color: #b7c4ca;
+}
+
+#Economia .articles article a {
+    background-color: rgb(100, 128, 143);
+}
+
 #Esportes {
-    background-color: #e7e7e7;
+    background-color: #b1c4bc;
+}
+
+#Esportes .articles article a {
+    background-color: #375a4f33;
 }
